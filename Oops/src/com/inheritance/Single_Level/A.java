@@ -1,7 +1,7 @@
 package com.inheritance.Single_Level;
-class b{
+class B{
 	
 }
-public class A extends b {
+public class A extends B {
 
 }
