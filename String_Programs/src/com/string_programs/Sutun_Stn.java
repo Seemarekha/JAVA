@@ -1,7 +1,5 @@
 package com.string_programs;
 
-import java.util.Scanner;
-
 public class Sutun_Stn {
 
 	public static void main(String[] args) {
