@@ -11,8 +11,7 @@ public class RemoveExtraSpaceFromString {
 	public static void main(String[] args) {
 		System.out.println("Enter a string : ");
 		String s=new Scanner(System.in).nextLine();
-		String s2=s.replace(" +" , " ");
-		s2=s2.replace("^  |  $", "");
+		String s2=s.trim().replaceAll(" +" , " ");
 		System.out.println("After removing extra space : "+s2);
 
 	}
