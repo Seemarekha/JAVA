@@ -1,6 +1,6 @@
 // Write a java program to store characters in an array and print the characters in reverse order ?
 
-package com.java_programs;
+package com.array_programs;
 
 import java.util.Scanner;
 
