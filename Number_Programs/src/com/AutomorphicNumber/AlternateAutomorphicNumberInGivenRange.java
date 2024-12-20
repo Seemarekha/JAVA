@@ -1,4 +1,4 @@
-package AutomorphicNumber;
+package com.AutomorphicNumber;
 
 import java.util.Scanner;
 
