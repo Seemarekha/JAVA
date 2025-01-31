@@ -22,7 +22,7 @@ public class SmallestSubstring {
 		String smallPalindrome = null;
 
 		for (int i = 0; i < s.length(); i++) {
-			for (int j = i + 1; j <= s.length(); j++) {
+			for (int j = i + 3; j <= s.length(); j++) {
 				String substr = s.substring(i, j);
 				if (isPalindrome(substr)) {
 					if (smallPalindrome == null || substr.length() < smallPalindrome.length())
