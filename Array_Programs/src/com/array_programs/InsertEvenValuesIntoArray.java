@@ -16,9 +16,7 @@ public class InsertEvenValuesIntoArray {
 			if (value % 2 == 0)
 				evenValues.add(value);
 		}
-		System.out.println("Even values in array: ");
-		for (int evenValue : evenValues)
-			System.out.print(evenValue + " ");
+		System.out.println("Even values in array: "+evenValues);
 
 	}
 
