@@ -20,3 +20,17 @@ class SquarePyramid
 		}
 	}
 }
+
+
+/***************** Output *************/
+
+/*
+
+Enter number of lines : 5
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+*/
