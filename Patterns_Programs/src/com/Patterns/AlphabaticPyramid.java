@@ -36,3 +36,18 @@ class AlphabaticPyramid
 	}
 }
 
+
+/**************** Output ****************/
+
+/*
+
+
+Enter number of lines : 5
+        A 
+      B C D 
+    E F G H I 
+      J K L 
+        M 
+
+
+*/
