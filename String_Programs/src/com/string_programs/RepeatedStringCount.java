@@ -11,7 +11,7 @@ public class RepeatedStringCount {
 		System.out.println("Enter number of character :");
 		long n = scn.nextLong();
 		long charCount = repeatedString(s, n);
-		System.out.println(charCount);
+		System.out.println("Repeated count of a :"+charCount);
 		scn.close();
 
 	}
@@ -36,3 +36,16 @@ public class RepeatedStringCount {
 	}
 
 }
+
+
+/*
+
+
+Enter repeated string :
+aba
+Enter number of character :
+10
+Repeated count of a :7
+
+
+*/
