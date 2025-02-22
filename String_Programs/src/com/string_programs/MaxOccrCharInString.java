@@ -18,7 +18,7 @@ public class MaxOccrCharInString {
 		
 		 if(s.isEmpty() || s==null)
 		 {
-			 System.out.println("GivenString is empty or null");
+			 System.out.println("Given String is empty or null");
 		     return;
 		 }
 		 
@@ -45,3 +45,12 @@ public class MaxOccrCharInString {
 	}
 
 }
+
+/*
+
+ 
+Enter a string :Sutun
+Maximum occurred character : u and it's count : 2
+
+
+*/
