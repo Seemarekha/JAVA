@@ -44,3 +44,11 @@ public class MinOccurCharInString {
 	}
 
 }
+
+
+/*
+ 
+Enter a string : ggood
+Minimum occurred character : d and its count : 1
+
+*/
