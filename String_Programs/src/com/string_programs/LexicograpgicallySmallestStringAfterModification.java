@@ -27,3 +27,11 @@ public class LexicograpgicallySmallestStringAfterModification {
 	}
 
 }
+
+
+/*
+ 
+ ip - hackerrank
+ op - gackerrank
+ 
+ */
