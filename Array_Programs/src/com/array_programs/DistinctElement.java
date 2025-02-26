@@ -34,3 +34,22 @@ public class DistinctElement {
 	}
 
 }
+
+
+/*
+Output :
+
+Enter target value :
+2
+Enter size of array :
+5
+Enter array elements :
+1
+2
+3
+4
+5
+Number of distinct pairs :3
+
+
+*/
