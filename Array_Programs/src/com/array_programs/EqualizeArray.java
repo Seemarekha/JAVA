@@ -30,7 +30,7 @@ public class EqualizeArray {
 			return true;
 
 		int base = arr[0];
-		int gcdValue = 0;
+		int gcdValue = Math.abs(arr[1] - base);;
 
 		for (int i = 1; i < n; i++) {
 			gcdValue = gcd(gcdValue, Math.abs(arr[i] - base));
@@ -48,3 +48,18 @@ public class EqualizeArray {
 		return a;
 	}
 }
+
+
+/*
+
+Output :
+
+
+Enter the elements of the array:
+10
+20
+30
+40
+Yes, all numbers can be made equal.
+
+*/
