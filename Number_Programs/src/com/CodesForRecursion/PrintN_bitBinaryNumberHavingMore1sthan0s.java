@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class PrintN_bitBinaryNumberHavingMore1sthan0s {
 
 	public static void main(String[] args) {
-		System.out.println("Enter a number:");
+		System.out.print("Enter a number:");
 		int n = new Scanner(System.in).nextInt();
+		System.out.println("Print N-bit binary numbers having more 1's than 0's :");
 		printNums(n);
 
 	}
@@ -29,3 +30,21 @@ public class PrintN_bitBinaryNumberHavingMore1sthan0s {
 	}
 
 }
+
+
+
+
+/************** Output ********************/
+
+
+/*
+
+
+
+Enter a number:4
+Print N-bit binary numbers having more 1's than 0's :
+1111 1110 1101 1100 1011 1010 
+
+
+
+*/
