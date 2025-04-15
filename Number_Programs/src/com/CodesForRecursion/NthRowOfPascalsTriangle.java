@@ -7,12 +7,12 @@ import java.util.Scanner;
 public class NthRowOfPascalsTriangle {
 
 	public static void main(String[] args) {
-		System.out.println("Enter number of row :");
+		System.out.print("Enter number of row :");
 		int n = new Scanner(System.in).nextInt();
 
 		List<Integer> nthRow = getRow(n);
 
-		System.out.println(nthRow);
+		System.out.println(n+"th row of Pascal Triangle :"+nthRow);
 	}
 
 	private static List<Integer> getRow(int n) {
@@ -28,3 +28,24 @@ public class NthRowOfPascalsTriangle {
 	}
 
 }
+
+
+
+
+
+
+/******************* Output **********************/
+
+/*
+
+
+Enter number of row :5
+5th row of Pascal Triangle :[1, 5, 10, 10, 5, 1]
+
+
+
+
+
+*/
+
+
