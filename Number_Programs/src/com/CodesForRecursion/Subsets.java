@@ -9,11 +9,8 @@ public class Subsets {
 		int[] nums = { 1, 2, 3, 4 };
 		List<List<Integer>> result = findSubsets(nums);
 
-		System.out.println("Subsets : ");
+		System.out.println("Subsets : "+result);
 
-		for (List<Integer> subset : result) {
-			System.out.println(subset);
-		}
 
 	}
 
