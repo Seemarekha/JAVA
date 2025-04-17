@@ -11,7 +11,6 @@ public class FindEquilibriumIndex {
 	}
 
 	private static int equilibrium_index(int[] arr, int n) {
-		int res = -1;
 		for (int i = 0; i < n; i++) {
 			int left_sum = 0;
 			for (int j = 0; j < i; j++) {
