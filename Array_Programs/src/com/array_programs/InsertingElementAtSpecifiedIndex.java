@@ -31,3 +31,26 @@ public class InsertingElementAtSpecifiedIndex {
 	}
 
 }
+
+
+
+
+
+/********************** Output ********************/
+
+
+/*
+
+
+
+Given Array : [2, 6, 4, 8, 9, 3]
+Enter element u want to insert : 
+10
+Enter index value : 
+4
+New Array : [2, 6, 4, 8, 10, 9, 3]
+
+
+
+*/
+
