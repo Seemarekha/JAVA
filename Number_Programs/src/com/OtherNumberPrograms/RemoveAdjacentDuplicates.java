@@ -13,9 +13,12 @@ public class RemoveAdjacentDuplicates {
 
 		while (i < s.length()) {
 			if (sb.length() > 0 && sb.charAt(sb.length() - 1) == s.charAt(i))
+			{
 				sb.deleteCharAt(sb.length() - 1);
-			else
+			}
+			else {
 				sb.append(s.charAt(i));
+			}
 			i++;
 
 		}
