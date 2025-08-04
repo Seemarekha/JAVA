@@ -8,7 +8,7 @@ public class DecimalToHexaDecimal {
 
 		System.out.println("Enter a decimal number : ");
 		int dec = new Scanner(System.in).nextInt();
-		System.out.println("Decimal To HexaDecimal Conversion : ");
+		System.out.print("Decimal To HexaDecimal Conversion : Ox");
 		convert(dec);
 
 	}
