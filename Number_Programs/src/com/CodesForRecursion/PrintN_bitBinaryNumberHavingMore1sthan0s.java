@@ -8,7 +8,7 @@ public class PrintN_bitBinaryNumberHavingMore1sthan0s {
 		System.out.print("Enter a number:");
 		int n = new Scanner(System.in).nextInt();
 		System.out.println("Print N-bit binary numbers having more 1's than 0's :");
-		printNums(n);
+		printNums(n); 
 
 	}
 
