@@ -2,7 +2,7 @@ package com.string_programs;
 
 import java.util.Scanner;
 
-public class WordOfStringInReverse_without_Using_Builtin_method {
+public class WordOfStringInReverse_without_Using_Buildin_method {
 
 	public static void main(String[] args) {
 		Scanner scn=new Scanner(System.in);
