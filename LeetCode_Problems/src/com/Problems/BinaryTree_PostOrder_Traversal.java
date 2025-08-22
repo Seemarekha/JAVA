@@ -20,7 +20,7 @@ public class BinaryTree_PostOrder_Traversal {
 
 		BinaryTree_PostOrder_Traversal pt = new BinaryTree_PostOrder_Traversal();
 		List<Integer> result = pt.postOrderTraversal(root);
-		System.out.println("Postorder Traversal: " + result); // Output: [4, 6, 7, 5, 2, 9, 8, 3, 1]
+		System.out.println("Post-Order Traversal: " + result); // Output: [4, 6, 7, 5, 2, 9, 8, 3, 1]
 	}
 
 	private List<Integer> postOrderTraversal(TreeNode_T root) {
