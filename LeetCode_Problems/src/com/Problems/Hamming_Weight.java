@@ -77,9 +77,9 @@ public class Hamming_Weight {
  * 
  * 
  * 
- * Input: 11 -> Binary: 00000000000000000000000000001011 -> Set Bits: 3 Input:
- * 128 -> Binary: 00000000000000000000000010000000 -> Set Bits: 1 Input:
- * 2147483645 -> Binary: 01111111111111111111111111111101 -> Set Bits: 30
+ * Input: 11 -> Binary: 00000000000000000000000000001011 -> Set Bits: 3 
+ * Input: 128 -> Binary: 00000000000000000000000010000000 -> Set Bits: 1 
+ * Input: 2147483645 -> Binary: 01111111111111111111111111111101 -> Set Bits: 30
  * 
  * 
  * 
