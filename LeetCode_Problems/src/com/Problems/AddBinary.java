@@ -6,7 +6,7 @@ public class AddBinary {
 		String a="11";
 		String b="1";
 		String res=addBinary(a,b);
-		System.out.println(res);
+		System.out.println(res);  // 100
 
 	}
 
