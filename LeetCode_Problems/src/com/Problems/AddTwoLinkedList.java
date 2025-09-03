@@ -23,7 +23,7 @@ public class AddTwoLinkedList {
 
 		ListNode result = addTwoNumbers(l1, l2);
 		System.out.print("Sum : ");
-		printList(result);
+		printList(result); // Sum : 7->0->8
 
 	}
 
@@ -58,7 +58,7 @@ public class AddTwoLinkedList {
 			if (head.next != null)
 				System.out.print("->");
 			head = head.next;
-		}	
+		}
 		System.out.println();
 
 	}
