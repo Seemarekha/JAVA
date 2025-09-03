@@ -27,9 +27,9 @@ public class Arranging_Coins {
 		int n2 = 8;
 		int n3 = 1;
 
-		System.out.println("Input: " + n1 + " -> Output: " + arrangeCoins(n1));
-		System.out.println("Input: " + n2 + " -> Output: " + arrangeCoins(n2));
-		System.out.println("Input: " + n3 + " -> Output: " + arrangeCoins(n3));
+		System.out.println("Input: " + n1 + " -> Output: " + arrangeCoins(n1)); // Input: 5 -> Output: 2
+		System.out.println("Input: " + n2 + " -> Output: " + arrangeCoins(n2)); // Input: 8 -> Output: 3
+		System.out.println("Input: " + n3 + " -> Output: " + arrangeCoins(n3)); // Input: 1 -> Output: 0
 
 	}
 
