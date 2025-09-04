@@ -56,7 +56,7 @@ public class Buddy_Strings {
 
 		List<Integer> diff = new ArrayList<Integer>();
 		for (int i = 0; i < s.length(); i++) {
-			if (s.charAt(i) != s.charAt(i))
+			if (s.charAt(i) != goal.charAt(i))
 				diff.add(i);
 		}
 
