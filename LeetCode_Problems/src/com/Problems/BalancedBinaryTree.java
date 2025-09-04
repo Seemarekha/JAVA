@@ -37,7 +37,7 @@ public class BalancedBinaryTree {
 
 		int right = checkHeight(node.right);
 		if (right == -1)
-			return 0;
+			return -1;
 
 		if (Math.abs(left - right) > 1)
 			return -1;
