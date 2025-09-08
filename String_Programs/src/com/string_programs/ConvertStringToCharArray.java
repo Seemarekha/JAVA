@@ -20,9 +20,21 @@ public class ConvertStringToCharArray {
 		char[] arr2=new char[s.length()];
 		for(int i=0;i<s.length();i++)
 		{
-			arr2[i]+=s.charAt(i);
+			arr2[i]=s.charAt(i);
 		}
 		System.out.println(Arrays.toString(arr2));
 	}
 
 }
+
+
+
+/*
+
+Enter a string :
+sutun
+[s, u, t, u, n]
+[s, u, t, u, n]
+
+
+*/
