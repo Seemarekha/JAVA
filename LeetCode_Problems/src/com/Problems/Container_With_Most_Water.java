@@ -15,12 +15,13 @@ public class Container_With_Most_Water {
 	private static int maxArea(int[] height) {
 		int left = 0;
 		int right = height.length - 1;
-		int max = 0;
+		int maxArea = 0;
 
 		while (left < right) {
 			int width = right - left;
-			int area = Math.min(height[left], height[right]) * width;
-			max = Math.max(max, area);
+			int minHeight = Math.min(height[left], height[right]);
+			int area = minHeight * width;
+			maxArea = Math.max(maxArea, area);
 
 			if (height[left] <= height[right]) {
 				left++;
@@ -28,20 +29,18 @@ public class Container_With_Most_Water {
 				right--;
 			}
 		}
-		return max;
+		return maxArea;
 	}
 
 }
 
-
 /***************** Output **********************/
 
-
 /*
-
-
-Given heights in array : [1, 8, 6, 2, 5, 4, 8, 3, 7]
-Maximum area filled with water : 49
-
-
-*/
+ * 
+ * 
+ * Given heights in array : [1, 8, 6, 2, 5, 4, 8, 3, 7] Maximum area filled with
+ * water : 49
+ * 
+ * 
+ */
