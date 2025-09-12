@@ -1,3 +1,22 @@
+/*
+Given an integer array nums, find a subarray that has the largest product, and return the product.
+
+The test cases are generated so that the answer will fit in a 32-bit integer.
+
+Example 1:
+
+Input: nums = [2,3,-2,4]
+Output: 6
+Explanation: [2,3] has the largest product 6.
+
+
+Example 2:
+
+Input: nums = [-2,0,-1]
+Output: 0
+Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+ */
+
 package com.Problems;
 
 import java.util.Arrays;
@@ -17,13 +36,17 @@ public class Maximum_Product_SubArray {
 			return 0;
 		int min = arr[0];
 		int max = arr[0];
-		int res = max;
+		int res = arr[0];
 
 		for (int i = 1; i < arr.length; i++) {
-			int curr = arr[i];
-			int temp = Math.max(curr, Math.max(max * curr, min * curr));
-			min = Math.min(curr, Math.min(min * curr, max * curr));
-			max = temp;
+			if (arr[i] < 0) {
+				int temp = max;
+				max = min;
+				min = temp;
+			}
+
+			max = Math.max(arr[i], max * arr[i]);
+			min = Math.min(arr[i], min * arr[i]);
 
 			res = Math.max(res, max);
 		}
@@ -32,21 +55,15 @@ public class Maximum_Product_SubArray {
 
 }
 
-
-
-
-
 /************* Output ***************/
 
-
 /*
-  
-  
-  
-  
-Given array : [2, 3, -2, 4]
-Maximum product subArray : 6  
-  
-  
-  
+ * 
+ * 
+ * 
+ * 
+ * Given array : [2, 3, -2, 4] Maximum product subArray : 6
+ * 
+ * 
+ * 
  */
