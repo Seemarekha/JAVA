@@ -37,7 +37,7 @@ public class Product_Of_Array_Except_Self {
 		int prefix = 1, suffix = 1;
 
 		for (int i = 0; i < arr.length; i++) {
-			res[i] = prefix;
+			res[i] = prefix; 
 			prefix *= arr[i];
 		}
 
