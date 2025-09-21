@@ -33,7 +33,7 @@ public class SortString {
 		
 		Arrays.sort(arr);
 		String s3= new String(arr);
-		System.out.println(s2);
+		System.out.println(s3);
 		
 	}
 
