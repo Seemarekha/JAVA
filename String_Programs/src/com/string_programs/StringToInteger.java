@@ -8,7 +8,6 @@ public class StringToInteger {
 		System.out.println("Enter a string : ");
 		String s = new Scanner(System.in).next();
 
-		/*********** Approach-1 *********/
 
 		int num = 0;
 		for (int i = 0; i < s.length(); i++) {
