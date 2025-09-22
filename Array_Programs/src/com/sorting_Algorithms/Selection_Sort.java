@@ -6,26 +6,26 @@ public class Selection_Sort {
 
 	public static void main(String[] args) {
 
-		int[] a = { 5, 8, 1, 2, 4, 6, 8, 10, 5, 9 };
-		System.out.println("Before sorting : " + Arrays.toString(a));
+		int[] arr = { 5, 8, 1, 2, 4, 6, 8, 10, 5, 9 };
+		System.out.println("Before sorting : " + Arrays.toString(arr));
 
-		sort(a);
-		System.out.println("After sorting : " + Arrays.toString(a));
+		sort(arr);
+		System.out.println("After sorting : " + Arrays.toString(arr));
 
 	}
 
-	static void sort(int[] a) {
+	static void sort(int[] arr) {
 
-		for (int i = 0; i < a.length - 1; i++) {
+		for (int i = 0; i < arr.length - 1; i++) {
 			int minIndex = i;
-			for (int j = i + 1; j < a.length; j++) {
-				if (a[j] < a[minIndex])
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[j] < arr[minIndex])
 					minIndex = j;
 			}
 			if (i != minIndex) {
-				int temp = a[minIndex];
-				a[minIndex] = a[i];
-				a[i] = temp;
+				int temp = arr[minIndex];
+				arr[minIndex] = arr[i];
+				arr[i] = temp;
 			}
 		}
 
