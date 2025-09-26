@@ -21,7 +21,7 @@ public class Reverse_String_2 {
 
 	public static void main(String[] args) {
 		System.out.println(reverseStr("abcdefg", 2)); // Output: "bacdfeg"
-		System.out.println(reverseStr("abcd", 2)); // Output: "bacd"
+		System.out.println(reverseStr("abcd", 3)); // Output: "cbad"
 	}
 
 	private static String reverseStr(String s, int k) {
