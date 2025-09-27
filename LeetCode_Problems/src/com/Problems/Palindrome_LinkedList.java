@@ -42,21 +42,22 @@ public class Palindrome_LinkedList {
 			slow = slow.next;
 			fast = fast.next.next;
 		}
-		ListNode secondHalfHead = reverseList(slow);
 
-		ListNode firstHalf = head;
-		ListNode secondHalf = secondHalfHead;
+		ListNode secondHalf = reverseList(slow);
+
+		ListNode p1 = head;
+		ListNode p2 = secondHalf;
 		boolean isPalindrome = true;
 
-		while (secondHalf != null) {
-			if (firstHalf.val != secondHalf.val) {
+		while (p2 != null) {
+			if (p1.val != p2.val) {
 				isPalindrome = false;
 				break;
 			}
-			firstHalf = firstHalf.next;
-			secondHalf = secondHalf.next;
+			p1 = p1.next;
+			p2 = p2.next;
 		}
-		reverseList(secondHalfHead);
+		reverseList(secondHalf);
 		return isPalindrome;
 	}
 
