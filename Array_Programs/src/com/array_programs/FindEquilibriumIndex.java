@@ -6,34 +6,36 @@ public class FindEquilibriumIndex {
 		int arr[] = { 1, 2, 3, 4, 5, 1, 3, 2, 4 };
 		int size = arr.length;
 		System.out.print("Equilibrium Index : ");
-		System.out.println(equilibrium_index(arr, size));
+		System.out.println(equilibrium_index(arr, size)); // 4
 
 	}
 
 	private static int equilibrium_index(int[] arr, int n) {
+
+		int total = 0;
+
+		for (int num : arr)
+			total += num;
+
+		int leftSum = 0;
+
 		for (int i = 0; i < n; i++) {
-			int left_sum = 0;
-			for (int j = 0; j < i; j++) {
-				left_sum += arr[i];
-			}
-			int right_sum = 0;
-			for (int j = i + 1; j < n; j++) {
-				right_sum += arr[i];
-			}
-			if (right_sum == left_sum)
+			int rightSum = total - leftSum - arr[i];
+
+			if (leftSum == rightSum)
 				return i;
+
+			leftSum += arr[i];
 		}
 		return -1;
 	}
 
 }
 
-
-
 /************* Output **********/
 
 /*
-
-Equilibrium Index : 4
-
-*/
+ * 
+ * Equilibrium Index : 4
+ * 
+ */
