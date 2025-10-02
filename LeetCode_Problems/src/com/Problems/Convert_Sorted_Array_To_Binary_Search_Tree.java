@@ -39,11 +39,28 @@ public class Convert_Sorted_Array_To_Binary_Search_Tree {
 
 		int[] nums1 = { -10, -3, 0, 5, 9 };
 		TreeNodeA bst1 = res.sortedArrayToBST(nums1);
-		System.out.println("BST for [-10,-3,0,5,9] : " + res.levelOrder(bst1));
+		System.out.println("BST for [-10,-3,0,5,9] : " + res.levelOrder(bst1)); // [0,-3,9,-10,null,5]
 
 		int[] nums2 = { 1, 3 };
 		TreeNodeA bst2 = res.sortedArrayToBST(nums2);
-		System.out.println("BST for [1,3] : " + res.levelOrder(bst2));
+		System.out.println("BST for [1,3] : " + res.levelOrder(bst2)); // [3,1]
+	}
+
+	private TreeNodeA sortedArrayToBST(int[] nums) {
+
+		return buildBST(nums, 0, nums.length - 1);
+	}
+
+	private TreeNodeA buildBST(int[] nums, int left, int right) {
+		if (left > right)
+			return null;
+
+		int mid = left + (right - left) / 2;
+		TreeNodeA node = new TreeNodeA(nums[mid]);
+		node.left = buildBST(nums, left, mid - 1);
+		node.right = buildBST(nums, mid + 1, right);
+
+		return node;
 	}
 
 	private List<String> levelOrder(TreeNodeA root) {
@@ -70,23 +87,6 @@ public class Convert_Sorted_Array_To_Binary_Search_Tree {
 			result.remove(result.size() - 1);
 		}
 		return result;
-	}
-
-	private TreeNodeA sortedArrayToBST(int[] nums) {
-
-		return buildBST(nums, 0, nums.length - 1);
-	}
-
-	private TreeNodeA buildBST(int[] nums, int left, int right) {
-		if (left > right)
-			return null;
-
-		int mid = left + (right - left) / 2;
-		TreeNodeA node = new TreeNodeA(nums[mid]);
-		node.left = buildBST(nums, left, mid - 1);
-		node.right = buildBST(nums, mid + 1, right);
-
-		return node;
 	}
 
 }
