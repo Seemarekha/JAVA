@@ -11,11 +11,15 @@ Example 1:
 Input: s = "ab", goal = "ba"
 Output: true
 Explanation: You can swap s[0] = 'a' and s[1] = 'b' to get "ba", which is equal to goal.
+
+
 Example 2:
 
 Input: s = "ab", goal = "ab"
 Output: false
 Explanation: The only letters you can swap are s[0] = 'a' and s[1] = 'b', which results in "ba" != goal.
+
+
 Example 3:
 
 Input: s = "aa", goal = "aa"
