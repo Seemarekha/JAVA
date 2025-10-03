@@ -26,7 +26,7 @@ public class Search_in_Rotated_Sorted_Array {
 				if (target < arr[left] || target > arr[mid])
 					left = mid + 1;
 				else
-					right = mid - 1;
+					right = mid - 1; 
 			} else {
 				if (target > arr[right] || target < arr[mid])
 					right = mid - 1;
