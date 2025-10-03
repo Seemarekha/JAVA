@@ -21,6 +21,8 @@ Explanation: The grid looks as follows:
   daf
   ghi
 Columns 0 and 2 are sorted, but column 1 is not, so you only need to delete 1 column.
+
+
 Example 2:
 
 Input: strs = ["a","b"]
@@ -29,6 +31,8 @@ Explanation: The grid looks as follows:
   a
   b
 Column 0 is the only column and is sorted, so you will not delete any columns.
+
+
 Example 3:
 
 Input: strs = ["zyx","wvu","tsr"]
