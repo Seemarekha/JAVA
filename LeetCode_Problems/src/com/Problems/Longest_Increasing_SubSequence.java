@@ -7,13 +7,14 @@ public class Longest_Increasing_SubSequence {
 	public static void main(String[] args) {
 		int[] arr = { 10, 9, 2, 5, 3, 7, 101, 18 };
 		System.out.println("Length of longest increasing subsequence : " + lengthOf(arr));
+		// Length of longest increasing subsequence : 4
 
 	}
 
 	private static int lengthOf(int[] arr) {
 		int[] lis = new int[arr.length];
 		Arrays.fill(lis, 1);
-		int max = 0;
+		int max = 1;
 
 		for (int i = 1; i < arr.length; i++) {
 			for (int j = 0; j < i; j++) {
@@ -28,18 +29,3 @@ public class Longest_Increasing_SubSequence {
 
 }
 
-
-
-/***************** Output ***************/
-
-
-/*
-
-
-
-Length of longest increasing subsequence : 4
-
-
-
-
-*/
