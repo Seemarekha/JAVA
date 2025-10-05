@@ -59,8 +59,10 @@ public class Longest_Common_SubSequence {
 /*
  * 
  * 
- * Given strings : text1 : abcde text2 : ace The length of longest common
- * subsequence : 3
+ * Given strings : 
+ * text1 : abcde 
+ * text2 : ace 
+ * The length of longest common subsequence : 3
  * 
  * 
  * 
