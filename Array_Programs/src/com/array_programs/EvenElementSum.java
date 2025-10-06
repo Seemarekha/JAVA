@@ -10,7 +10,7 @@ public class EvenElementSum {
 				sum += num;
 			}
 		}
-		System.out.println("Sum of Even elements in the array:" + sum);
+		System.out.println("Sum of Even elements in the array:" + sum);  // 20
 
 	}
 
