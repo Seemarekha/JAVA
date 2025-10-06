@@ -7,15 +7,15 @@ import java.util.TreeSet;
 public class ArrangeTheGivenStringArrayInAscendingOrder {
 
 	public static void main(String[] args) {
-		String[] str = { "Zack", "Alin", "Ben", "Riya", "Domini" };
-		System.out.println("Before sorting : " + Arrays.toString(str));
+		String[] strs = { "Zack", "Alin", "Ben", "Riya", "Domini" };
+		System.out.println("Before sorting : " + Arrays.toString(strs)); // Before sorting : [Zack, Alin, Ben, Riya, Domini]
 
-		Set<String> s = new TreeSet<String>();
+		Set<String> set = new TreeSet<String>();
 
-		for (String st : str)
-			s.add(st);
+		for (String s : strs)
+			set.add(s);
 
-		System.out.println("After sorting : " + s);
+		System.out.println("After sorting : " + set); // After sorting : [Alin, Ben, Domini, Riya, Zack]
 
 	}
 
