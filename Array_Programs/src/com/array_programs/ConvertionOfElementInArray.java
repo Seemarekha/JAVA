@@ -12,9 +12,11 @@ public class ConvertionOfElementInArray {
 
 	public static void main(String[] args) {
 		int[] a = { 5, 1, 0, -1, 2, 0 };
-		System.out.println("Before convertion : " + Arrays.toString(a));
+		System.out.println("Before convertion : " + Arrays.toString(a));  // Before convertion : [5, 1, 0, -1, 2, 0]
+
 		convert(a);
-		System.out.println("After convertion : " + Arrays.toString(a));
+		System.out.println("After convertion : " + Arrays.toString(a));  // After convertion : [5, 1, -1, 0, 2, -1]
+
 
 	}
 
