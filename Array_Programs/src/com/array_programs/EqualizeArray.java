@@ -30,7 +30,7 @@ public class EqualizeArray {
 			return true;
 
 		int base = arr[0];
-		int gcdValue = Math.abs(arr[1] - base);;
+		int gcdValue = Math.abs(arr[1] - base);
 
 		for (int i = 1; i < n; i++) {
 			gcdValue = gcd(gcdValue, Math.abs(arr[i] - base));
