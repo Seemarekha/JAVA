@@ -6,7 +6,7 @@ public class ShiftAllZeroesToRightSideOfArray {
 
 	public static void main(String[] args) {
 		int[] a = { 1, 0, 4, 3, 0, 6, 0, 0, 9, 8 };
-		System.out.println("Before shifting : " + Arrays.toString(a));
+		System.out.println("Before shifting : " + Arrays.toString(a)); // [1, 0, 4, 3, 0, 6, 0, 0, 9, 8]
 		int[] b = new int[a.length];
 		int j = 0;
 		for (int i = 0; i < a.length; i++) {
@@ -15,7 +15,7 @@ public class ShiftAllZeroesToRightSideOfArray {
 				j++;
 			}
 		}
-		System.out.println("After shifting :" + Arrays.toString(b));
+		System.out.println("After shifting :" + Arrays.toString(b)); // [1, 4, 3, 6, 9, 8, 0, 0, 0, 0]
 
 	}
 
