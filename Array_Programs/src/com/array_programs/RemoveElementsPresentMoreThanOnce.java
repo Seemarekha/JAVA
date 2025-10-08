@@ -7,9 +7,9 @@ public class RemoveElementsPresentMoreThanOnce {
 
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 1, 3, 2, 4 };
-		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(a)); // [1, 2, 1, 3, 2, 4]
 		int[] result = uniqueElement(a);
-		System.out.println(Arrays.toString(result));
+		System.out.println(Arrays.toString(result)); // [3, 4]
 
 	}
 
