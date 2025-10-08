@@ -6,8 +6,9 @@ public class ReplaceEachElementByItsRankInGivenArray {
 
 	public static void main(String[] args) {
 		int[] arr = { 100, 2, 70, 12, 90 };
+		System.out.println("Given Array : " + Arrays.toString(arr)); // [100, 2, 70, 12, 90]
 		resultArray(arr);
-		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(arr)); // [5, 1, 3, 2, 4]
 
 	}
 
@@ -29,12 +30,11 @@ public class ReplaceEachElementByItsRankInGivenArray {
 
 }
 
-
 /***************** Output ******************/
 
 /*
-
-[5, 1, 3, 2, 4]
-
-
-*/
+ * 
+ * [5, 1, 3, 2, 4]
+ * 
+ * 
+ */
