@@ -7,13 +7,13 @@ public class RotationOfElementsPresentInArray {
 
 	public static void main(String[] args) {
 		int[] a = { 10, 20, 30, 40 };
-		System.out.println("Before rotation of array : " + Arrays.toString(a));
+		System.out.println("Before rotation of array : " + Arrays.toString(a)); // [10, 20, 30, 40]
 		System.out.print("Enter number of rotations : ");
-		int r = new Scanner(System.in).nextInt();
+		int r = new Scanner(System.in).nextInt(); // 2
 		for (int i = 0; i <= r; i++) {
 			rotate(a);
 		}
-		System.out.println("After rotation of array : " + Arrays.toString(a));
+		System.out.println("After rotation of array : " + Arrays.toString(a)); // [20, 30, 40, 10]
 
 	}
 
