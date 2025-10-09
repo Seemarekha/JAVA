@@ -6,9 +6,10 @@ public class SumOfEvenDigitOfEachElement {
 
 	public static void main(String[] args) {
 		int[] a = { 461, 235, 124, 360, 1 };
-		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(a)); // [461, 235, 124, 360, 1]
 		evenDigitSum(a);
-		System.out.println("Sum of even digit of each element present in array : "+Arrays.toString(a));
+		System.out.println("Sum of even digit of each element present in array : " + Arrays.toString(a));
+		// [10, 2, 6, 6, 0]
 
 	}
 
