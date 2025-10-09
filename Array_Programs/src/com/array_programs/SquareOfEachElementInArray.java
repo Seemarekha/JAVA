@@ -6,9 +6,9 @@ public class SquareOfEachElementInArray {
 
 	public static void main(String[] args) {
 		int[] a = { 2, 3, 4, 5, 1, 6, 7 };
-		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(a)); // [2, 3, 4, 5, 1, 6, 7]
 		square(a);
-		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(a)); // [4, 9, 16, 25, 1, 36, 49]
 
 	}
 
