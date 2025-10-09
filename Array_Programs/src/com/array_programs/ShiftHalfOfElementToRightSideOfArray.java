@@ -7,7 +7,7 @@ public class ShiftHalfOfElementToRightSideOfArray {
 	public static void main(String[] args) {
 
 		int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-		System.out.println("Before shifting : " + Arrays.toString(arr));
+		System.out.println("Before shifting : " + Arrays.toString(arr));  // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 		int[] newArr = new int[arr.length];
 		int midIndex = arr.length / 2;
@@ -21,7 +21,7 @@ public class ShiftHalfOfElementToRightSideOfArray {
 			newArr[midIndex] = arr[midIndex];
 		}
 
-		System.out.println("After shifting : " + Arrays.toString(newArr));
+		System.out.println("After shifting : " + Arrays.toString(newArr));  // [6, 7, 8, 9, 5, 1, 2, 3, 4]
 
 	}
 
