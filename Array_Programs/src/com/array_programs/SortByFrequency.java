@@ -1,4 +1,4 @@
- package com.array_programs;
+package com.array_programs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,9 +10,9 @@ public class SortByFrequency {
 
 	public static void main(String[] args) {
 		int[] arr = { 4, 5, 6, 5, 4, 3, 2, 2, 8, 3, 3 };
-		System.out.println("Before sorting : " + Arrays.toString(arr));
+		System.out.println("Before sorting : " + Arrays.toString(arr)); // [4, 5, 6, 5, 4, 3, 2, 2, 8, 3, 3]
 		sortByFrequency(arr);
-		System.out.println("After sorting by frequency : " + Arrays.toString(arr));
+		System.out.println("After sorting by frequency : " + Arrays.toString(arr)); // [3, 3, 3, 2, 2, 4, 4, 5, 5, 6, 8]
 
 	}
 
