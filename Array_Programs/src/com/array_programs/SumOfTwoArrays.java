@@ -6,12 +6,12 @@ public class SumOfTwoArrays {
 
 	public static void main(String[] args) {
 		int[] a1 = { 2, 5 };
-		System.out.println("Array-1 : " + Arrays.toString(a1));
+		System.out.println("Array-1 : " + Arrays.toString(a1)); // [2, 5]
 		int[] a2 = { 6, 78, 34 };
-		System.out.println("Array-2 : " + Arrays.toString(a2));
+		System.out.println("Array-2 : " + Arrays.toString(a2)); // [6, 78, 34]
 
 		int[] sum = addArrays(a1, a2);
-		System.out.println("Sum of two arrays : " + Arrays.toString(sum));
+		System.out.println("Sum of two arrays : " + Arrays.toString(sum)); // [8, 83, 34]
 
 	}
 
