@@ -35,7 +35,7 @@ public class AlternatePrimeNumberInGivenRange {
 			return true;
 		if (n % i == 0)
 			return false;
-		return true;
+		return isPrime(n, i - 1);
 	}
 
 }
