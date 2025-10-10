@@ -9,7 +9,7 @@ public class Two_Sum {
 		int[] arr = { 3, 6, 2, 7, 5, 4 };
 		int target = 9;
 		List<List<Integer>> res = twoSum(arr, target);
-		System.out.println(res);
+		System.out.println(res); // [[3, 6], [2, 7], [5, 4]]
 
 	}
 
