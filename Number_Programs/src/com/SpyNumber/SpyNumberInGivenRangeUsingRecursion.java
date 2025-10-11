@@ -26,13 +26,11 @@ public class SpyNumberInGivenRangeUsingRecursion {
 
 	private static boolean isSpyNumber(int n, int sum, int product) {
 		if (n == 0) {
-			if (sum == product)
-				return true;
-			return false;
+			return sum == product;
 		}
 		sum += n % 10;
 		product *= n % 10;
-		return isSpyNumber(n /= 10, sum, product);
+		return isSpyNumber(n / 10, sum, product);
 
 	}
 
