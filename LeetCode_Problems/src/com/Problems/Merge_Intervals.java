@@ -31,7 +31,7 @@ import java.util.List;
 public class Merge_Intervals {
 
 	public static void main(String[] args) {
-		int[][] intervals1 = { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } };
+		int[][] intervals1 = { { 1, 3 }, { 2, 6  }, { 8, 10 }, { 15, 18 } };
 		int[][] intervals2 = { { 1, 4 }, { 4, 5 } };
 		int[][] intervals3 = { { 4, 7 }, { 1, 4 } };
 
