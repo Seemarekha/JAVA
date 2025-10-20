@@ -22,7 +22,7 @@ Output: [1]
 
 package com.Problems;
 
-public class Remove_Nth_Node_From_Of_List {
+public class Remove_Nth_Node_From_End_Of_List {
 
 	public static void main(String[] args) {
 		// Example: [1,2,3,4,5], n=2
