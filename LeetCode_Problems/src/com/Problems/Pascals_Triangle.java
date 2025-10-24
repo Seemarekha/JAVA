@@ -27,7 +27,8 @@ public class Pascals_Triangle {
 		int numRows2 = 1;
 
 		System.out.println("Pascal's Triangle (5 rows): " + generate(numRows1));
-		System.out.println("Pascal's Triangle (1 row): " + generate(numRows2));
+		// [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
+		System.out.println("Pascal's Triangle (1 row): " + generate(numRows2)); // [[1]]
 
 	}
 
