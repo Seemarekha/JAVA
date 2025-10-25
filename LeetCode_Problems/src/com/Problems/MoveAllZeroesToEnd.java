@@ -11,7 +11,7 @@ public class MoveAllZeroesToEnd {
 		System.out.println("After moving all zeroes to the end : " + Arrays.toString(res));
 
 	}
-
+ 
 	private static int[] moveZeroes(int[] arr) {
 		int[] res = new int[arr.length];
 		int j = 0;
