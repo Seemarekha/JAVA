@@ -37,11 +37,11 @@ import java.util.Arrays;
 public class Next_Permutation {
 
 	public static void main(String[] args) {
-		int[] nums = { 1, 3, 2 };
+		int[] nums = { 1, 2, 3 };
 
-		System.out.println("Original array: " + Arrays.toString(nums)); // [1, 3, 2]
+		System.out.println("Original array: " + Arrays.toString(nums)); // [1, 2, 3]
 		nextPermutation(nums);
-		System.out.println("Next permutation: " + Arrays.toString(nums)); // [2, 1, 3]
+		System.out.println("Next permutation: " + Arrays.toString(nums)); // [1, 3, 2]
 
 	}
 
