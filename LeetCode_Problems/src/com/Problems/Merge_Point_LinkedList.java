@@ -25,7 +25,7 @@ public class Merge_Point_LinkedList {
 
 		Node intersection = getIntersectionNode(headA, headB);
 		if (intersection != null) {
-			System.out.println("Merge Point: " + intersection.data);
+			System.out.println("Merge Point: " + intersection.data);  // 6
 		} else {
 			System.out.println("No merge point.");
 		}
