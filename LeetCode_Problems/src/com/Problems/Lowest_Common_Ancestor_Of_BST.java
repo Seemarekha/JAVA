@@ -44,11 +44,13 @@ public class Lowest_Common_Ancestor_Of_BST {
 		TreeNodeBST p = findNode(root, 2);
 		TreeNodeBST q = findNode(root, 8);
 		System.out.println("LCA of 2 and 8 = " + lowestCommonAncestor(root, p, q).val);
+		// LCA of 2 and 8 = 6
 
 		// Example 2: p=2, q=4 → LCA=2
 		p = findNode(root, 2);
 		q = findNode(root, 4);
 		System.out.println("LCA of 2 and 4 = " + lowestCommonAncestor(root, p, q).val);
+		// LCA of 2 and 4 = 2
 
 		// Example 3: root=[2,1], p=2, q=1 → LCA=2
 		Integer[] arr2 = { 2, 1 };
@@ -56,6 +58,7 @@ public class Lowest_Common_Ancestor_Of_BST {
 		p = findNode(root2, 2);
 		q = findNode(root2, 1);
 		System.out.println("LCA of 2 and 1 = " + lowestCommonAncestor(root2, p, q).val);
+		// LCA of 2 and 1 = 2
 
 	}
 
