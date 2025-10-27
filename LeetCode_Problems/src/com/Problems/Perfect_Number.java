@@ -3,8 +3,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 
 Given an integer n, return true if n is a perfect number, otherwise return false.
 
- 
-
 Example 1:
 
 Input: num = 28
