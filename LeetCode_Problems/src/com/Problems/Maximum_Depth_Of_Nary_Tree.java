@@ -69,3 +69,17 @@ public class Maximum_Depth_Of_Nary_Tree {
 	}
 
 }
+
+
+/*
+
+
+        1
+      / | \
+     3  2  4
+    / \
+   5   6
+
+
+
+*/
