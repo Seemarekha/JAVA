@@ -31,6 +31,8 @@ public class Longest_Valid_Parentheses {
 		System.out.println(longestValidParentheses("(()")); // 2
 		System.out.println(longestValidParentheses(")()())")); // 4
 		System.out.println(longestValidParentheses("")); // 0
+		System.out.println(longestValidParentheses("(())")); // 4
+		System.out.println(longestValidParentheses(")()(")); // 2
 
 	}
 
