@@ -12,7 +12,7 @@ public class Longest_Increasing_SubSequence {
 	}
 
 	private static int lengthOf(int[] arr) {
-		int[] lis = new int[arr.length];
+		int[] lis = new int[arr.length]; 
 		Arrays.fill(lis, 1);
 		int max = 1;
 
