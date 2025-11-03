@@ -9,6 +9,8 @@ Input: s = "5F3Z-2e-9-w", k = 4
 Output: "5F3Z-2E9W"
 Explanation: The string s has been split into two parts, each part has 4 characters.
 Note that the two extra dashes are not needed and can be removed.
+
+
 Example 2:
 
 Input: s = "2-5g-3-J", k = 2
