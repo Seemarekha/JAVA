@@ -9,6 +9,8 @@ Example 1:
 Input: name = "alex", typed = "aaleex"
 Output: true
 Explanation: 'a' and 'e' in 'alex' were long pressed.
+
+
 Example 2:
 
 Input: name = "saeed", typed = "ssaaedd"
