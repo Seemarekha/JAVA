@@ -64,3 +64,20 @@ public class AddTwoLinkedList {
 	}
 
 }
+
+
+/************** Output ******************/
+
+/*
+ 
+ 
+ input :-
+ 
+ list1 : 2->4->3
+ list2 : 5->6->4
+ 
+ output :7->0->8
+ 
+ 
+
+ */
