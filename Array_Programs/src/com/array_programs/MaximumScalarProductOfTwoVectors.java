@@ -36,7 +36,7 @@ public class MaximumScalarProductOfTwoVectors {
 		for (int i = 0; i < size; i++) {
 			product += arr1[i] * arr2[i];
 		}
-		System.out.println("Maximum scalar product of given two vectors : " + product);
+		System.out.println("Maximum scalar product of given two vectors : " + product); // 413
 	}
 
 }
