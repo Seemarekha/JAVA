@@ -7,7 +7,7 @@ public class MaximumNumberOfNetworks {
 		int minComp = 2;
 		int speedThreshold = 12;
 		int countNetwork = maxNetworks(speed, minComp, speedThreshold);
-		System.out.println("Number of network : " + countNetwork);
+		System.out.println("Number of network : " + countNetwork); // 2
 
 	}
 
