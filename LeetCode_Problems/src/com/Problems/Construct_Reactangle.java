@@ -29,17 +29,19 @@ Output: [427,286]
 
 package com.Problems;
 
+import java.util.Arrays;
+
 public class Construct_Reactangle {
 
 	public static void main(String[] args) {
 		int[] res1 = constructRectangle(4);
-		System.out.println("[" + res1[0] + "," + res1[1] + "]"); // [2,2]
+		System.out.println(Arrays.toString(res1)); // [2, 2]
 
 		int[] res2 = constructRectangle(37);
-		System.out.println("[" + res2[0] + "," + res2[1] + "]"); // [37,1]
+		System.out.println(Arrays.toString(res2)); // [37, 1]
 
 		int[] res3 = constructRectangle(122122);
-		System.out.println("[" + res3[0] + "," + res3[1] + "]"); // [427,286]
+		System.out.println(Arrays.toString(res3)); // [427, 286]
 
 	}
 
