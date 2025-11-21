@@ -1,5 +1,6 @@
 /*
 Problem Statement
+
 Alice will choose a number between 1 to N inclusive. Your task is to predict the number that Alice chose. If you predict the number correctly, you will be rewarded. However, if your prediction is wrong, Alice will tell you whether the number she chose is greater or smaller than your prediction, and you will keep predicting until you find the number. For each wrong prediction number K, you will give K coins to Alice.
 
 You are given the number N.
@@ -15,14 +16,19 @@ Print an integer denoting the minimum coins you should have.
 Constraints
 1 ≤ N ≤ 200
 
+
 Sample Testcase 0
+
 Testcase Input
 2
 Testcase Output
 1
 Explanation
 Alice can choose either 1 or 2. If we predict 1, which matches Alice’s number, then no coins need to be paid. Otherwise, we have to pay 1 coin. Even if Alice's number is greater, then it must be 2. We can predict 2 by paying only 1 coin. So, we have to pay only 1 coin in the worst-case scenario.
+
+
 Sample Testcase 1
+
 Testcase Input
 10
 Testcase Output
