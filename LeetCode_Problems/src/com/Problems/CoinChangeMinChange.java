@@ -26,6 +26,8 @@ Output: 0
  */
 package com.Problems;
 
+import java.util.Arrays;
+
 public class CoinChangeMinChange {
 
 	public static void main(String[] args) {
@@ -39,8 +41,7 @@ public class CoinChangeMinChange {
 
 		int[] dp = new int[amount + 1];
 
-		for (int i = 1; i <= amount; i++)
-			dp[i] = amount + 1;
+		Arrays.fill(dp, amount + 1);
 
 		dp[0] = 0;
 
@@ -55,14 +56,13 @@ public class CoinChangeMinChange {
 
 }
 
-
 /*********** Output *******************/
 
 /*
-
-
-
-Minimum coins required : 3
-
-
-*/
+ * 
+ * 
+ * 
+ * Minimum coins required : 3
+ * 
+ * 
+ */
