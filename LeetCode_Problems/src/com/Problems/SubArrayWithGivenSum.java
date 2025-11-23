@@ -15,7 +15,7 @@ public class SubArrayWithGivenSum {
 				currSum -= arr[i++];
 			}
 			if (currSum == sum) {
-				System.out.println("Subarray from index " + i + " to " + j);
+				System.out.println("Subarray from index " + i + " to " + j);  // Subarray from index 2 to 4
 				return;
 			}
 		}
