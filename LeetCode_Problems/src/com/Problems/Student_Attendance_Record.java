@@ -16,6 +16,8 @@ Example 1:
 Input: s = "PPALLP"
 Output: true
 Explanation: The student has fewer than 2 absences and was never late 3 or more consecutive days.
+
+
 Example 2:
 
 Input: s = "PPALLL"
