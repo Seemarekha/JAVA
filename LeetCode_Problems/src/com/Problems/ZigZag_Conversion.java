@@ -15,6 +15,10 @@ Example 1:
 
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
+Explanation:
+P   A   H   N
+A P L S I I G
+Y   I   R
 
 
 Example 2:
@@ -41,36 +45,33 @@ public class ZigZag_Conversion {
 	public static void main(String[] args) {
 		System.out.println(convert("PAYPALISHIRING", 3)); // Output: PAHNAPLSIIGYIR
 		System.out.println(convert("PAYPALISHIRING", 4)); // Output: PINALSIGYAHRPI
-		System.out.println(convert("A", 1));              // Output: A
+		System.out.println(convert("A", 1)); // Output: A
 
 	}
 
 	private static String convert(String s, int numRows) {
-		if(numRows==0 || s.length()<=numRows)
+		if (numRows == 0 || s.length() <= numRows)
 			return s;
 
-		StringBuilder[] rows=new StringBuilder[numRows];
-		for(int i=0;i<numRows;i++)
-		{
-			rows[i]=new StringBuilder();
+		StringBuilder[] rows = new StringBuilder[numRows];
+		for (int i = 0; i < numRows; i++) {
+			rows[i] = new StringBuilder();
 		}
 
-		int index=0;
-		boolean goingDown=false;
+		int index = 0;
+		boolean goingDown = false;
 
-		for(char c:s.toCharArray())
-		{
+		for (char c : s.toCharArray()) {
 			rows[index].append(c);
 
-			if(index==0 || index==numRows-1)
-				goingDown=!goingDown;
+			if (index == 0 || index == numRows - 1)
+				goingDown = !goingDown;
 
-			index+=goingDown?1:-1;
+			index += goingDown ? 1 : -1;
 		}
 
-		StringBuilder res=new StringBuilder();
-		for(StringBuilder row:rows)
-		{
+		StringBuilder res = new StringBuilder();
+		for (StringBuilder row : rows) {
 			res.append(row);
 		}
 		return res.toString();
