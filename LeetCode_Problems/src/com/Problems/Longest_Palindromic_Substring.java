@@ -4,34 +4,40 @@ public class Longest_Palindromic_Substring {
 
 	public static void main(String[] args) {
 		String s = "babd";
-		System.out.println(longestPalindrome(s));
+		System.out.println(longestPalindrome(s));  // bab
 	}
 
 	private static String longestPalindrome(String s) {
-		if (s == null || s.length() < 0)
-			return "";
+		if (s.length() < 2)
+			return s;
 
-		int start = 0, end = 0;
+		int start = 0, max = 1;
 
 		for (int i = 0; i < s.length(); i++) {
-			int len1 = expand(s, i, i);
-			int len2 = expand(s, i, i + 1);
-			int len = Math.max(len1, len2);
+			int left = i, right = i;
 
-			if (len > end - start) {
-				start = i - (len - 1) / 2;
-				end = i + len / 2;
+			while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+				if (right - left + 1 > max) {
+					max = right - left + 1;
+					start = left;
+				}
+				left--;
+				right++;
+			}
+
+			left = i;
+			right = i + 1;
+
+			while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+				if (right - left + 1 > max) {
+					max = right - left + 1;
+					start = left;
+				}
+				left--;
+				right++;
 			}
 		}
-		return s.substring(start, end + 1);
-	}
-
-	private static int expand(String s, int left, int right) {
-		while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-			left--;
-			right++;
-		}
-		return right - left - 1;
+		return s.substring(start, start + max);
 	}
 
 }
