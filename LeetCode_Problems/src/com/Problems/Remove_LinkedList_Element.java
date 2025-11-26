@@ -4,13 +4,16 @@ Given the head of a linked list and an integer val, remove all the nodes of the 
  
 Example 1:
 
-
 Input: head = [1,2,6,3,4,5,6], val = 6
 Output: [1,2,3,4,5]
+
+
 Example 2:
 
 Input: head = [], val = 1
 Output: []
+
+
 Example 3:
 
 Input: head = [7,7,7,7], val = 7
@@ -28,11 +31,11 @@ public class Remove_LinkedList_Element {
 
 		ListNode head = createList(values);
 		System.out.print("Original List: ");
-		printList(head);  // Original List: 1->2->6->3->4->5->6
+		printList(head); // Original List: 1->2->6->3->4->5->6
 
 		head = removeElements(head, target);
 		System.out.print("Updated List: ");
-		printList(head);  // Updated List: 1->2->3->4->5
+		printList(head); // Updated List: 1->2->3->4->5
 
 	}
 
