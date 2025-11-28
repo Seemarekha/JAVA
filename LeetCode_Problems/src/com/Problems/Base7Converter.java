@@ -6,6 +6,8 @@ Example 1:
 
 Input: num = 100
 Output: "202"
+
+
 Example 2:
 
 Input: num = -7
