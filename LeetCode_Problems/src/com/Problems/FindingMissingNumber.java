@@ -7,7 +7,7 @@ public class FindingMissingNumber {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 0, 3, 5 };
-		System.out.println("Given array : " + Arrays.toString(arr));
+		System.out.println("Given array : " + Arrays.toString(arr)); // 2 4
 
 		if (arr.length == 0)
 			return;
