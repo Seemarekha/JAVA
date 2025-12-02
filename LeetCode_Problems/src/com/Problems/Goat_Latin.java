@@ -1,5 +1,5 @@
 /*
- You are given a string sentence that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
+You are given a string sentence that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 
 We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.) The rules of Goat Latin are as follows:
 
@@ -16,6 +16,8 @@ Example 1:
 
 Input: sentence = "I speak Goat Latin"
 Output: "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
+
+
 Example 2:
 
 Input: sentence = "The quick brown fox jumped over the lazy dog"
