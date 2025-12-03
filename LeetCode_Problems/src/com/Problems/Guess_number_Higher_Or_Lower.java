@@ -12,16 +12,19 @@ You call a pre-defined API int guess(int num), which returns three possible resu
 0: your guess is equal to the number I picked (i.e. num == pick).
 Return the number that I picked.
 
- 
 
 Example 1:
 
 Input: n = 10, pick = 6
 Output: 6
+
+
 Example 2:
 
 Input: n = 1, pick = 1
 Output: 1
+
+
 Example 3:
 
 Input: n = 2, pick = 1
@@ -82,7 +85,7 @@ public class Guess_number_Higher_Or_Lower {
 		Solution sol = new Solution(pick);
 		int result = sol.guessNumber(n);
 
-		System.out.println("The picked number is: " + result);
+		System.out.println("The picked number is: " + result); // 6
 	}
 
 }
