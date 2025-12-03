@@ -12,6 +12,8 @@ Explanation:
 4   (0 1 0 0)
        ↑   ↑
 The above arrows point to positions where the corresponding bits are different.
+
+
 Example 2:
 
 Input: x = 3, y = 1
