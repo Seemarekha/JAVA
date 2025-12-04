@@ -66,7 +66,7 @@ class MyQueue {
 	public boolean isEmpty() {
 
 		return input.isEmpty() && output.isEmpty();
-	}
+	} 
 }
 
 public class Implement_Queue_Using_Stacks {
