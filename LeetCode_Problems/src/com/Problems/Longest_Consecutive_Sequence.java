@@ -39,7 +39,7 @@ public class Longest_Consecutive_Sequence {
 			return 0;
 
 		HashSet<Integer> hs = new HashSet<Integer>();
-		for (int num : nums) {
+		for (int num  : nums) {
 			hs.add(num);
 		}
 
