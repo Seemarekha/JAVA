@@ -3,7 +3,7 @@ package com.Problems;
 public class Longest_Palindromic_Substring {
 
 	public static void main(String[] args) {
-		String s = "babd";
+		String s = "ba bd";
 		System.out.println(longestPalindrome(s));  // bab
 	}
 
