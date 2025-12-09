@@ -8,7 +8,6 @@ public class PrintWordsofGivenString {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Enter a string : ");
 		String s = scn.nextLine();
-		String s2=" ";
 		String[] str=s.split(" ");
 		
 		for(int i=0;i<str.length;i++)
