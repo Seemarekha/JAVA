@@ -1,5 +1,5 @@
 /*
- Given two arrays of strings list1 and list2, find the common strings with the least index sum.
+Given two arrays of strings list1 and list2, find the common strings with the least index sum.
 
 A common string is a string that appeared in both list1 and list2.
 
