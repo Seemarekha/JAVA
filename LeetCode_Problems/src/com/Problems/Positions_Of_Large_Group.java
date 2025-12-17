@@ -1,5 +1,5 @@
 /*
- In a string s of lowercase letters, these letters form consecutive groups of the same character.
+In a string s of lowercase letters, these letters form consecutive groups of the same character.
 
 For example, a string like s = "abbxxxxzyy" has the groups "a", "bb", "xxxx", "z", and "yy".
 
@@ -15,11 +15,15 @@ Example 1:
 Input: s = "abbxxxxzzy"
 Output: [[3,6]]
 Explanation: "xxxx" is the only large group with start index 3 and end index 6.
+
+
 Example 2:
 
 Input: s = "abc"
 Output: []
 Explanation: We have groups "a", "b", and "c", none of which are large groups.
+
+
 Example 3:
 
 Input: s = "abcdddeeeeaabbbcd"
