@@ -8,6 +8,8 @@ Example 1:
 
 Input: s = "abcdefg", k = 2
 Output: "bacdfeg"
+
+
 Example 2:
 
 Input: s = "abcd", k = 2
