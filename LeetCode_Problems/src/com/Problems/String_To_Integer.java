@@ -22,6 +22,7 @@ Step 3: "42" ("42" is read in)
           
           
 Example 2:
+
 Input: s = " -042"
 Output: -42
 Explanation:
@@ -31,6 +32,7 @@ Step 3: "   -042" ("042" is read in, leading zeros ignored in the result)
                
                
 Example 3:
+
 Input: s = "1337c0d3"
 Output: 1337
 Explanation:
