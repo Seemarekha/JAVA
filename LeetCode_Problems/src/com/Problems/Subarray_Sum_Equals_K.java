@@ -12,7 +12,7 @@ public class Subarray_Sum_Equals_K {
 		System.out.println(res); // 2
 
 	}
-
+ 
 	private static int subarraySum(int[] arr, int k) {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		map.put(0, 1);
