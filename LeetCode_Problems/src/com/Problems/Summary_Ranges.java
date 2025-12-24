@@ -19,6 +19,8 @@ Explanation: The ranges are:
 [0,2] --> "0->2"
 [4,5] --> "4->5"
 [7,7] --> "7"
+
+
 Example 2:
 
 Input: nums = [0,2,3,4,6,8,9]
