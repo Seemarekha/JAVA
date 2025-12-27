@@ -1,5 +1,5 @@
 /*
- International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
+International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
 
 'a' maps to ".-",
 'b' maps to "-...",
@@ -24,6 +24,8 @@ Explanation: The transformation of each word is:
 "gig" -> "--...--."
 "msg" -> "--...--."
 There are 2 different transformations: "--...-." and "--...--.".
+
+
 Example 2:
 
 Input: words = ["a"]
