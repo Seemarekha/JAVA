@@ -13,11 +13,9 @@ public class MaxProductSubarray {
 		for (int i = 1; i < nums.length; i++) {
 			int tempMax = currentMax;
 
-			// Update the current maximum and minimum
 			currentMax = Math.max(nums[i], Math.max(currentMax * nums[i], currentMin * nums[i]));
 			currentMin = Math.min(nums[i], Math.min(tempMax * nums[i], currentMin * nums[i]));
 
-			// Update the global maximum product
 			maxProduct = Math.max(maxProduct, currentMax);
 		}
 
@@ -26,6 +24,6 @@ public class MaxProductSubarray {
 
 	public static void main(String[] args) {
 		int[] nums = { 2, 3, -2, 4, -1 };
-		System.out.println("Maximum product of subarray: " + maxProduct(nums));
+		System.out.println("Maximum product of subarray: " + maxProduct(nums)); // 48
 	}
 }
