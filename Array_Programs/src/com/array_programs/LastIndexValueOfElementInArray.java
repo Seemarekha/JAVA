@@ -1,4 +1,6 @@
-/* write a java program to print an array's last index value of a given element.
+/* 
+write a java program to print an array's last index value of a given element.
+
 input : {1,2,9,3,9,4,9,6,7,8} find the last index of 9
 output : 6
 */
