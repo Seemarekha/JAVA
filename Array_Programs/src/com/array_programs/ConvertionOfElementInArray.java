@@ -1,4 +1,6 @@
-/*  Write a java program to convert 0 into -1 and -1 into 0
+/*  
+ Write a java program to convert 0 into -1 and -1 into 0
+ 
  input : {5,1,0,-1,2,0}
  output : {5,1,-1,0,2,-1}
  
