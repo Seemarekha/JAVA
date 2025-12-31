@@ -7,10 +7,10 @@ public class Quick_Sort {
 	public static void main(String[] args) {
 
 		int[] a = { 5, 3, 8, 1, 2, 4, 6, 7, 10, 5, 9 };
-		System.out.println("Before sorting : " + Arrays.toString(a));
+		System.out.println("Before sorting : " + Arrays.toString(a)); // [5, 8, 1, 2, 4, 6, 8, 10, 5, 9]
 
 		sort(a, 0, a.length - 1);
-		System.out.println("After sorting : " + Arrays.toString(a));
+		System.out.println("After sorting : " + Arrays.toString(a)); // [1, 2, 4, 5, 5, 6, 8, 8, 9, 10]
 
 	}
 
