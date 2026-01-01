@@ -1,4 +1,4 @@
-//  write a java program to find missing alphabet in a string by using indexOf method?
+//write a java program to find missing alphabet in a string by using indexOf method?
 
 
 package com.string_programs;
