@@ -1,4 +1,4 @@
-//  input: “ramana” output:”ramn” with indexOf method?
+//input: “ramana” output:”ramn” with indexOf method?
 
 package com.string_programs;
 
