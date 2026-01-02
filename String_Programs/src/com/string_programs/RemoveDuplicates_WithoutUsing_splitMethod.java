@@ -10,7 +10,7 @@ public class RemoveDuplicates_WithoutUsing_splitMethod {
 		System.out.println("Original string : "+s);
 		
 		String res=removeDuplicates(s);
-		System.out.println("After removing duplicates : "+res);
+		System.out.println("After removing duplicates : "+res); // java is a programming language and popular
 	}
 
 	private static String removeDuplicates(String s) {
