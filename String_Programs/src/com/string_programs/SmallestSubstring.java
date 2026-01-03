@@ -1,4 +1,4 @@
-//  write a java program smallest substring palindrome in a  given string? 
+//write a java program smallest substring palindrome in a  given string? 
 
 package com.string_programs;
 
