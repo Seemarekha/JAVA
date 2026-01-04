@@ -10,10 +10,14 @@ Example 1:
 
 Input: s = "IDID"
 Output: [0,4,1,3,2]
+
+
 Example 2:
 
 Input: s = "III"
 Output: [0,1,2,3]
+
+
 Example 3:
 
 Input: s = "DDI"
