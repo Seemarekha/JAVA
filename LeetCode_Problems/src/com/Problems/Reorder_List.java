@@ -39,7 +39,7 @@ public class Reorder_List {
 
 		System.out.println();
 		System.out.print("Reordered List: ");
-		printList(head); // Reo+rdered List: 1->5->2->4->3
+		printList(head); // Reordered List: 1->5->2->4->3
 
 	}
 
