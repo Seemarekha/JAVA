@@ -10,7 +10,7 @@ public class LargestElementPresentInArray {
 			if (arr[i] > max)
 				max = arr[i];
 		}
-		System.out.println("Smallest element in a given array : " + max);
+		System.out.println("Largest element in a given array : " + max);
 
 	}
 
