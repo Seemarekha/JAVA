@@ -39,8 +39,8 @@ public class Container_With_Most_Water {
 /*
  * 
  * 
- * Given heights in array : [1, 8, 6, 2, 5, 4, 8, 3, 7] Maximum area filled with
- * water : 49
+ * Given heights in array : [1, 8, 6, 2, 5, 4, 8, 3, 7] 
+ * Maximum area filled with water : 49
  * 
  * 
  */
