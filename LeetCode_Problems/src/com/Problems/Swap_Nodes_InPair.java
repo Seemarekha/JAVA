@@ -40,14 +40,14 @@ public class Swap_Nodes_InPair {
 		printList(head); // Original List: 1->2->3->4
 		ListNode swapped = swapPairs(head);
 		System.out.print("Swapped List: ");
-		printList(swapped); // Swapped List: 1->3->2->4
+		printList(swapped); // Swapped List: 2->1->4->3
 
 	}
 
 	private static ListNode swapPairs(ListNode head) {
 		ListNode dummy = new ListNode(0);
 		dummy.next = head;
-		ListNode curr = head;
+		ListNode curr = dummy;
 
 		while (curr.next != null && curr.next.next != null) {
 			ListNode first = curr.next;
