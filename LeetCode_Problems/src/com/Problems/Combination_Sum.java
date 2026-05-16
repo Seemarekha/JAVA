@@ -46,6 +46,7 @@ public class Combination_Sum {
 
 	private static void findCombinations(int[] arr, int target, int index, List<Integer> current,
 			List<List<Integer>> res) {
+		
 		if (target == 0) {
 			res.add(new ArrayList<Integer>(current));
 			return;
