@@ -21,7 +21,7 @@
  
  I/P : 
  5 
- ["balck","grey","brown","red","pink"] 
+ ["black","grey","brown","red","pink"] 
  3 
  "black" 
  
