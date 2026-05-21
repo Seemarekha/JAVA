@@ -57,7 +57,7 @@ public class LexicoSuffix {
 			String bestSuffix = null;
 			int bestLength = 0;
 
-			for (int i = 0; i < n - T.length(); i++) {
+			for (int i = 0; i <= n - T.length(); i++) {
 				if (s.startsWith(T, i)) {
 					String suffix = s.substring(i);
 
