@@ -1,7 +1,9 @@
 /*
-You have a certain number of processors, each having 4 cores. The number of tasks to be executed is four times the number of processors. Each task must be assigned to a unique core, and each core can only be used once.
+You have a certain number of processors, each having 4 cores. The number of tasks to be executed is four times the number of 
+processors. Each task must be assigned to a unique core, and each core can only be used once.
 
-You are given an array processorTime representing the time each processor becomes available and an array tasks representing how long each task takes to complete. Return the minimum time needed to complete all tasks.
+You are given an array processorTime representing the time each processor becomes available and an array tasks representing how 
+long each task takes to complete. Return the minimum time needed to complete all tasks.
 
  
 
@@ -13,7 +15,8 @@ Output: 16
 
 Explanation:
 
-Assign the tasks at indices 4, 5, 6, 7 to the first processor which becomes available at time = 8, and the tasks at indices 0, 1, 2, 3 to the second processor which becomes available at time = 10. 
+Assign the tasks at indices 4, 5, 6, 7 to the first processor which becomes available at time = 8, and the tasks at indices 
+0, 1, 2, 3 to the second processor which becomes available at time = 10. 
 
 The time taken by the first processor to finish the execution of all tasks is max(8 + 8, 8 + 7, 8 + 4, 8 + 5) = 16.
 
