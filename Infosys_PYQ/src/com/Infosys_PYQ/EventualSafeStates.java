@@ -1,5 +1,6 @@
 /*
-A node is a terminal node if there are no outgoing edges. A node is a safe node if every possible path starting from that node leads to a terminal node (or another safe node).
+A node is a terminal node if there are no outgoing edges. A node is a safe node if every possible path starting from that 
+node leads to a terminal node (or another safe node).
 
 Return an array containing all the safe nodes of the graph. The answer should be sorted in ascending order.
 
