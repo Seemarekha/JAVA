@@ -68,11 +68,11 @@ Example Graph
 
 Output (from source = 0):
 
-0 → 0
-1 → 1
-2 → 1
-3 → 2
-4 → 3
-5 → 4
+Distance from 0 to 0 = 0
+Distance from 0 to 1 = 1
+Distance from 0 to 2 = 1
+Distance from 0 to 3 = 2
+Distance from 0 to 4 = 3
+Distance from 0 to 5 = 4
  
  */
