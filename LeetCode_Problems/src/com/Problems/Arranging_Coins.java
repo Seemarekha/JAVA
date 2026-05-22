@@ -1,5 +1,6 @@
 /*
-You have n coins and you want to build a staircase with these coins. The staircase consists of k rows where the ith row has exactly i coins. The last row of the staircase may be incomplete.
+You have n coins and you want to build a staircase with these coins. The staircase consists of k rows, 
+where the ith row has exactly i coins. The last row of the staircase may be incomplete.
 
 Given the integer n, return the number of complete rows of the staircase you will build.
 
@@ -29,14 +30,12 @@ public class Arranging_Coins {
 
 		System.out.println("Input: " + n1 + " -> Output: " + arrangeCoins(n1)); // Input: 5 -> Output: 2
 		System.out.println("Input: " + n2 + " -> Output: " + arrangeCoins(n2)); // Input: 8 -> Output: 3
-		System.out.println("Input: " + n3 + " -> Output: " + arrangeCoins(n3)); // Input: 1 -> Output: 0
+		System.out.println("Input: " + n3 + " -> Output: " + arrangeCoins(n3)); // Input: 1 -> Output: 1
 
 	}
 
 	private static int arrangeCoins(int n) {
-		long coins = (long) n;
-		long k = (long) (Math.floor((-1 + (Math.sqrt(1 + 8 * coins)) / 2)));
-		return (int) k;
+		return (int) ((Math.sqrt(1 + 8L * n) - 1) / 2);
 	}
 
 }
