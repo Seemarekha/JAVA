@@ -10,7 +10,7 @@ public class Check_if_Two_Strings_Are_Rotation {
 	}
 
 	private static boolean isRotation(String s1, String s2) {
-		return (s1.length() == s2.length() && (s1 + s2).contains(s2));
+		return (s1.length() == s2.length() && (s1 + s1).contains(s2));
 	}
 
 }
