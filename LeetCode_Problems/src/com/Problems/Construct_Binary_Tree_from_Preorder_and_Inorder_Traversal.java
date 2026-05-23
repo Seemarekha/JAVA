@@ -1,5 +1,6 @@
 /*
-Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
+Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder 
+traversal of the same tree, construct and return the binary tree.
 
 
 Example 1:
@@ -30,7 +31,8 @@ public class Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
 	private Map<Integer, Integer> inorderMap = new HashMap<>();
 
 	public static void main(String[] args) {
-		Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal obj = new Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal();
+		Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal obj = new 
+				Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal();
 
 		int[] preorder = { 3, 9, 20, 15, 7 };
 		int[] inorder = { 9, 3, 15, 20, 7 };
