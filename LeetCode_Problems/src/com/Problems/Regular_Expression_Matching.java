@@ -55,8 +55,8 @@ public class Regular_Expression_Matching {
 		dp[0][0] = true;
 
 		for (int j = 2; j <= n; j++) {
-			if (p.charAt(j - 1) == '.')
-				dp[0][j] = dp[0][j - 2];
+		    if (p.charAt(j - 1) == '*')
+		        dp[0][j] = dp[0][j - 2];
 		}
 
 		for (int i = 1; i <= m; i++) {
@@ -89,9 +89,9 @@ public class Regular_Expression_Matching {
 
 
 s = "aa", p = "a" → false
-s = "aa", p = "a*" → false
-s = "ab", p = ".*" → false
-s = "aab", p = "c*a*b" → false
+s = "aa", p = "a*" → true
+s = "ab", p = ".*" → true
+s = "aab", p = "c*a*b" → true
 
 
 
