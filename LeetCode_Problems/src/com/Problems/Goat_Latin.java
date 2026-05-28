@@ -1,7 +1,9 @@
 /*
-You are given a string sentence that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
+You are given a string sentence that consist of words separated by spaces. Each word consists of lowercase and uppercase letters 
+only.
 
-We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.) The rules of Goat Latin are as follows:
+We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.) The rules of Goat Latin are as 
+follows:
 
 If a word begins with a vowel ('a', 'e', 'i', 'o', or 'u'), append "ma" to the end of the word.
 For example, the word "apple" becomes "applema".
