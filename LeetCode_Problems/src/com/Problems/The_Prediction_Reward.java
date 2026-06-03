@@ -1,7 +1,10 @@
 /*
 Problem Statement
 
-Alice will choose a number between 1 to N inclusive. Your task is to predict the number that Alice chose. If you predict the number correctly, you will be rewarded. However, if your prediction is wrong, Alice will tell you whether the number she chose is greater or smaller than your prediction, and you will keep predicting until you find the number. For each wrong prediction number K, you will give K coins to Alice.
+Alice will choose a number between 1 to N inclusive. Your task is to predict the number that Alice chose. If you predict the 
+number correctly, you will be rewarded. However, if your prediction is wrong, Alice will tell you whether the number she 
+chose is greater or smaller than your prediction, and you will keep predicting until you find the number. For each wrong 
+prediction number K, you will give K coins to Alice.
 
 You are given the number N.
 
@@ -24,7 +27,9 @@ Testcase Input
 Testcase Output
 1
 Explanation
-Alice can choose either 1 or 2. If we predict 1, which matches Alice’s number, then no coins need to be paid. Otherwise, we have to pay 1 coin. Even if Alice's number is greater, then it must be 2. We can predict 2 by paying only 1 coin. So, we have to pay only 1 coin in the worst-case scenario.
+Alice can choose either 1 or 2. If we predict 1, which matches Alice’s number, then no coins need to be paid. 
+Otherwise, we have to pay 1 coin. Even if Alice's number is greater, then it must be 2. We can predict 2 by paying only 1 
+coin. So, we have to pay only 1 coin in the worst-case scenario.
 
 
 Sample Testcase 1
@@ -34,7 +39,8 @@ Testcase Input
 Testcase Output
 16
 Explanation
-Alice has chosen a number between 1 and 10. Your goal is to predict this number, minimizing the total number of coins you will give Alice in the worst-case scenario.
+Alice has chosen a number between 1 and 10. Your goal is to predict this number, minimizing the total number of coins you 
+will give Alice in the worst-case scenario.
 
 
 The winning strategy is as follows:
@@ -56,7 +62,8 @@ If Alice’s number is lower than 3, the range becomes [1,2]. You predict 1.
 If this is Alice’s number, your total is 7 + 3 = 10 coins. Otherwise, you give Alice 1 more coin.
 If Alice’s number is higher, it must be 2. You predict 2. Your total is 7 + 3 + 1 = 11 coins.
 
-In all possible cases, the worst outcome requires you to give Alice 16 coins. Hence, the minimum number of coins you should have to guarantee a win is 16.
+In all possible cases, the worst outcome requires you to give Alice 16 coins. Hence, the minimum number of coins you should 
+have to guarantee a win is 16.
  */
 
 package com.Problems;
