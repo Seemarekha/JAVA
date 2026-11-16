@@ -7,7 +7,7 @@ public class Binary_Search {
 
 	public static void main(String[] args) {
 
-		int[] a = { 2, 4, 6, 3, 8, 12, 9, 15, 10, 13 };
+		int[] a = { 2, 4, 6, 8, 9, 10, 13, 15 };
 		System.out.println(Arrays.toString(a));
 
 		System.out.print("Enter element u want to search in given array : ");
@@ -18,18 +18,18 @@ public class Binary_Search {
 	}
 
 	static int search(int[] a, int key, int start, int end) {
+		while (start <= end) {
 
-		if (start > end)
-			return -1;
+			int mid = (start + end) / 2;
 
-		int mid = (start + end) / 2;
-
-		if (key == a[mid])
-			return mid;
-		else if (key < a[mid])
-			return search(a, key, start, mid - 1);
-		else
-			return search(a, key, mid + 1, end);
+			if (key == a[mid])
+				return mid;
+			else if (key < a[mid])
+				end = mid - 1;
+			else
+				start = mid + 1;
+		}
+		return -1;
 
 	}
 
